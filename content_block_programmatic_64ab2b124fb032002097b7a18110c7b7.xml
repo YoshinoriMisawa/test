@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2017-02-16 00:56:12">
+<content_block_programmatic action="INSERT_OR_UPDATE">
+<active>true</active>
+<category>general</category>
+<condition/>
+<conditional>false</conditional>
+<frame display_value=""/>
+<logged_on>false</logged_on>
+<name>cp_t - home</name>
+<programmatic_content><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+    <!-- ======================================================================================
+    ページ内で使用する Style sheet
+    ======================================================================================  -->
+
+    <!-- ======================================================================================
+    ページ内で使用する Server side script
+    ======================================================================================  -->
+    <g:evaluate object="true">
+    </g:evaluate>
+
+    <!-- ======================================================================================
+    ページ内で使用する html
+    ======================================================================================  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="home_action ">
+                    <a href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-book fa-stack-1x" style="color: white;"></i>
+                        </span>
+                        <div class="home_action_text">
+                            <h3>調べる</h3>
+                            <span class="text-mited">ナレッジから必要な情報を調べます。</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="home_action ">
+                    <a href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-briefcase fa-stack-1x" style="color: white;"></i>
+                        </span>
+                        <div class="home_action_text">
+                            <h3>依頼する</h3>
+                            <span class="text-mited">必要なサービスの提供を依頼します。</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="home_action last ">
+                    <a href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-hand-paper-o fa-stack-1x" style="color: white;"></i>
+                        </span>
+                        <div class="home_action_text">
+                            <h3>聞く</h3>
+                            <span class="text-mited">担当者に質問します。</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="home_list">
+                    <div class="panel panel-primary panel-table">
+                        <div class="panel-heading bg_nos">ニュース</div>
+                        <div class="panel-body">
+                            <table id="new_list" class="table table-striped table-list">
+                                <thead>
+                                    <tr>
+                                        <th class="hidden-xs">掲載日</th>
+                                        <th class="col-text">タイトル</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-status="unread" data-href="" title="○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○について1">
+                                        <td class="hidden-xs">2016/01/01</td>
+                                        <td><span></span>○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○について1</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について2">
+                                        <td class="hidden-xs">2016/01/02</td>
+                                        <td><span></span>○○について2</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について3">
+                                        <td class="hidden-xs">2016/01/03</td>
+                                        <td><span></span>○○について3</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                    <tr data-status="" data-href="" title="○○について">
+                                        <td class="hidden-xs">2016/01/31</td>
+                                        <td><span></span>○○について</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="home_list">
+                    <div class="panel panel-primary panel-table">
+                       <div class="panel-heading bg_nos">リンク</div>
+                        <div class="panel-body">
+                            <table id="link_list" class="table table-striped table-list">
+                                <thead>
+                                    <tr>
+                                        <th class="hidden-xs">掲載日</th>
+                                        <th class="col-text">タイトル</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-status="unread" data-href="" title="○○について1">
+                                        <td class="hidden-xs">2016/01/01</td>
+                                        <td><span></span>○○について1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</j:jelly>]]></programmatic_content>
+<sys_class_name>content_block_programmatic</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-02-10 05:46:47</sys_created_on>
+<sys_customer_update>true</sys_customer_update>
+<sys_id>64ab2b124fb032002097b7a18110c7b7</sys_id>
+<sys_mod_count>34</sys_mod_count>
+<sys_name>cp_t - home</sys_name>
+<sys_package display_value="Global">global</sys_package>
+<sys_policy/>
+<sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>content_block_programmatic_64ab2b124fb032002097b7a18110c7b7</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-02-15 08:27:34</sys_updated_on>
+<two_phase>false</two_phase>
+</content_block_programmatic>
+</unload>
